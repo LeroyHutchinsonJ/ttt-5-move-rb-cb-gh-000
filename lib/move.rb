@@ -11,7 +11,7 @@ end
 
 #Takes user input and uses it to fill out position that user inputed
 def input_to_index(index)
-trueIndex = index.to_i - 1
+index= index.to_i - 1
 end
 
 def update_array_at_with(array, index, value)
