@@ -18,5 +18,5 @@ end
 def move(array, index, value = "X")
   trueIndex = index.to_i
   array[trueIndex - 1] = value
-  value = value.abs
+
 end
