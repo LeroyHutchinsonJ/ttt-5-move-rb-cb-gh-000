@@ -3,7 +3,9 @@
 # code your input_to_index and move method here!
 
 def update_array_at_with(board,index,value)
-board[index] = value
+board[index] = value.to_i
+
+
 
 puts " #{board[0]} | #{board[1]} | #{board[2]} "
 puts "-----------"
