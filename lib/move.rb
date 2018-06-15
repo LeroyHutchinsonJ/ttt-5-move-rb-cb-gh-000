@@ -15,5 +15,5 @@ index= index.to_i - 1
 end
 
 def update_array_at_with(array, index, value)
-  array[index.to_i] = value
+  array[index.to_i - 1] = value
 end
