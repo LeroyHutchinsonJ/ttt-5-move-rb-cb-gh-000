@@ -12,3 +12,5 @@ def input_to_index(index)
 trueindex = index.to_i + 1
 return trueindex
 end
+
+puts trueindex
