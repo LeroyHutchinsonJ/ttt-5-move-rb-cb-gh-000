@@ -10,5 +10,5 @@ puts "Where would you like to move"
 input = gets.strip
 input_to_index(input)
 
-update_array_at_with(board,input,"X")
+move(board,input,"X")
 display_board(board)
