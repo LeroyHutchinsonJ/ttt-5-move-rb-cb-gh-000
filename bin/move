@@ -11,5 +11,5 @@ input = gets.strip
 
 
 
-move(board,input)
+move(board,input, "X")
 display_board(board)
