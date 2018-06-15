@@ -11,3 +11,5 @@ index = gets.strip
 array =[" "," "," "," "," "," "," "," "," "]
 
 display_board(array)
+
+input_to_index(index)
