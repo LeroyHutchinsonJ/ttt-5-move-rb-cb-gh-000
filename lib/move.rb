@@ -11,6 +11,6 @@ end
 def input_to_index(index)
 
 trueIndex = index.to_i - 1
-board[trueIndex] = "X"
+
 
 end
