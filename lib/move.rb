@@ -11,7 +11,6 @@ end
 
 #Takes user input and uses it to fill out position that user inputed
 def input_to_index(index, board, value)
-  puts "Where would you like to go"
   
 trueIndex = index.to_i - 1
 board[trueIndex] = value
