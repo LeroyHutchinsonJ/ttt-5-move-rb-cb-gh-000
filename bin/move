@@ -10,34 +10,3 @@ puts "Where would you like to move"
 index = gets.strip
 input_to_index(index, board, "X")
 
-puts "Welcome to Tic Tac Toe!"
-index = gets.strip
-input_to_index(index, board, "O")
-
-puts "Welcome to Tic Tac Toe!"
-index = gets.strip
-input_to_index(index, board, "X")
-
-puts "Welcome to Tic Tac Toe!"
-index = gets.strip
-input_to_index(index, board, "O")
-
-puts "Welcome to Tic Tac Toe!"
-index = gets.strip
-input_to_index(index, board, "X")
-
-puts "Welcome to Tic Tac Toe!"
-index = gets.strip
-input_to_index(index, board, "O")
-
-puts "Welcome to Tic Tac Toe!"
-index = gets.strip
-input_to_index(index, board, "X")
-
-puts "Welcome to Tic Tac Toe!"
-index = gets.strip
-input_to_index(index, board, "O")
-
-puts "Welcome to Tic Tac Toe!"
-index = gets.strip
-input_to_index(index, board, "X")
