@@ -9,7 +9,7 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to move"
 input = gets.strip
 
-
+puts index
 
 move(board,input)
 display_board(board)
