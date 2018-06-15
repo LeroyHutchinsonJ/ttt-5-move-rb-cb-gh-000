@@ -10,6 +10,7 @@ end
 
 def input_to_index(index)
 
-board[index.to_i] = "X"
+trueIndex = index.to_i - 1
+board[trueIndex] = "X"
 
 end
