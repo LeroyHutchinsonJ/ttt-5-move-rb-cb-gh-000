@@ -10,7 +10,7 @@ end
 
 def input_to_index(index)
 
-index.to_i
-display_board(board[index])
+board[index.to_i] = "X"
+
 
 end
