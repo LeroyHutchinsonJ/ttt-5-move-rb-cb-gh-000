@@ -10,8 +10,8 @@ end
 
 
 #Takes user input and uses it to fill out position that user inputed
-def input_to_index(index.to_i + 1, board)
-board[index] =
+def input_to_index(index.to_i + 1, board, value)
+board[index] = value
 
 puts " #{board[0]} | #{board[1]} | #{board[2]} "
 puts "-----------"
