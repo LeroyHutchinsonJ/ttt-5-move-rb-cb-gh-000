@@ -10,4 +10,4 @@ puts "Where would you like to go"
 
 index = gets.strip
 
-update_array_at_with(board,index,"X")
+update_array_at_with(board,index,2)
