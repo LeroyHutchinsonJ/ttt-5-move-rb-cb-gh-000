@@ -15,8 +15,5 @@ index= index.to_i - 1
 end
 
 def move(array, index, value = "X")
-
-  
-
   array[index.to_i ] = value
 end
