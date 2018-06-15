@@ -7,8 +7,8 @@ board =[" "," "," "," "," "," "," "," "," "]
 
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to move"
-index = gets.strip
-input_to_index(index)
+input = gets.strip
+input_to_index(input)
 
-update_array_at_with(board,index,"X")
+update_array_at_with(board,input,"X")
 display_board(board)
