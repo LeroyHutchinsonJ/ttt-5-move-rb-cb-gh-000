@@ -12,7 +12,7 @@ end
 #Takes user input and uses it to fill out position that user inputed
 def input_to_index(index, board, value)
 trueIndex = index.to_i
-board[index] = value
+board[trueIndex] = value
 
 puts " #{board[0]} | #{board[1]} | #{board[2]} "
 puts "-----------"
