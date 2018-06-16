@@ -10,7 +10,11 @@ end
 
 
 #Takes user input and uses it to fill out position that user inputed
-def input_to_index(input) index = input.to_i return index -= 1 end
+def input_to_index(input)
+
+index = input.to_i
+return index -= 1
+end
 
 def move(array, index, value = "X")
   trueIndex = index.to_i
