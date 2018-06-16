@@ -17,6 +17,5 @@ return index -= 1
 end
 
 def move(array, index, value = "X")
-  trueIndex = index.to_i - 1
-  array[trueIndex] = value
+  array[index] = value
 end
